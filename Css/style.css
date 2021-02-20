@@ -1,8 +1,12 @@
+*{
+  box-sizing: border-box;
+}
 body {
   font-family: "Roboto", sans-serif;
 }
 .home-wrapper {
-  background: url(../Images/background.jpg) no-repeat center top;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../Images/background.jpg) no-repeat center top;
   background-size: cover;
   color: white;
 }
@@ -35,10 +39,7 @@ header nav a.active {
   padding: 200px 0 150px;
 }
 
-.container {
-  width: 992px;
-  margin-left: auto;
-  margin-right: auto;
+
 }
 #home h1 {
   font-size: 68px;
@@ -68,3 +69,43 @@ header nav a.active {
 #home .social a:hover {
   background-color: #fed136;
 }
+
+#servicios .box{
+display: inline-block;
+text-align: center;
+width: 33%;
+padding: 10px;
+}
+#portafolio{
+  background-color: whitesmoke
+}
+#portafolio .box{
+  display: inline-block;
+  text-align: center;
+  width: 31%;
+  margin: 1%;
+  background-color: white;
+
+}
+#portafolio .box img{
+  width: 100%;
+}
+#portafolio .box p{
+  color: #666;
+  padding: 10px;
+}
+section {
+  padding: 80px 0;
+}
+
+section h2 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+
+.container {
+  width: 992px;
+  margin-left: auto;
+  margin-right: auto;
